@@ -54,17 +54,17 @@ class Library:
 
 
 if __name__ == '__main__':
-    list_of_books = ["blackhole", "galaxy", "inter plantery life"]
+    list_of_books = [""Python\n Rich Daddy Poor Daddy\n Harry Potter\n C++ Basics\n Algorithms by CLRS\n""]
     BookOwned = {}
-    KetanLibrary = Library(list_of_books, "KetanLibrary")
+    CollrgeLibrary = Library(list_of_books, "CollrgeLibrary")
     while(1):
 
         operation = int(input("\n\n\n1. Display Available Books \n2. Add Books, \n3. Lend Books, \n4. Return Books \n\nEnter the Operation you want to Perform \n\n ->>> "))
         if(operation == 1):
-            KetanLibrary.DisplayBooks()
+            CollrgeLibrary.DisplayBooks()
         elif(operation == 2):
-            KetanLibrary.AddBooks()
+            CollrgeLibrary.AddBooks()
         elif(operation == 3):
-            KetanLibrary.LendBooks(BookOwned)
+           CollrgeLibrary.LendBooks(BookOwned)
         elif(operation == 4):
-            KetanLibrary.ReturnBooks()
+            CollrgeLibrary.ReturnBooks()
