@@ -1,4 +1,4 @@
-# library-managment
+# Library-Managment
 This is library management code made in python programming
 
 #  Usage of this code
